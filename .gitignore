@@ -1,0 +1,8 @@
+/.idea
+/.vscode
+/vendor
+*.log
+/evui
+/app/model/BaseModel.php
+/app/model/CacheModel.php
+/app/service/GenerateService.php
