@@ -1,0 +1,143 @@
+{ // 一天一次上下班
+  "attendancePeriods": [
+    {
+      "periodName": "第一时段上下学",
+      "periodOrder": 1,
+      "startTime": "07:00",
+      "startCheckInTime": "05:00",
+      "endCheckInTime": "07:00",
+      "endTime": "18:00",
+      "startCheckOutTime": "18:00",
+      "endCheckOutTime": "20:00"
+    }
+  ],
+  "maxLateMin": "10",
+  "maxEarlyMin": "20",
+  "shiftName": "一天一次考勤",
+  "absentMin": "30",
+  "description": "备注"
+},
+
+{ // 一天两次上下班
+  "attendancePeriods": [
+    {
+      "periodName": "第一时段上下学",
+      "periodOrder": 1,
+      "startTime": "07:00",
+      "startCheckInTime": "05:00",
+      "endCheckInTime": "08:00",
+      "endTime": "12:00",
+      "startCheckOutTime": "11:00",
+      "endCheckOutTime": "13:00"
+    },
+    {
+      "periodName": "第二时段上下学",
+      "periodOrder": 2,
+      "startTime": "02:00",
+      "startCheckInTime": "13:00",
+      "endCheckInTime": "15:00",
+      "endTime": "18:00",
+      "startCheckOutTime": "17:00",
+      "endCheckOutTime": "19:00"
+    }
+  ],
+  "maxLateMin": "5",
+  "maxEarlyMin": "10",
+  "shiftName": "一天两次考勤",
+  "absentMin": "30",
+  "description": "备注"
+},
+
+{ // 一天三次上下班
+"attendancePeriods": [
+{
+"periodName": "第一时段上下学",
+"periodOrder": 1,
+"startTime": "07:00",
+"startCheckInTime": "05:00",
+"endCheckInTime": "08:00",
+"endTime": "12:00",
+"startCheckOutTime": "11:00",
+"endCheckOutTime": "13:00"
+},
+{
+"periodName": "第二时段上下学",
+"periodOrder": 2,
+"startTime": "14:00",
+"startCheckInTime": "13:00",
+"endCheckInTime": "15:00",
+"endTime": "18:00",
+"startCheckOutTime": "17:00",
+"endCheckOutTime": "19:00"
+},
+{
+"periodName": "第三时段上下学",
+"periodOrder": 3,
+"startTime": "20:00",
+"startCheckInTime": "19:00",
+"endCheckInTime": "21:00",
+"endTime": "22:00",
+"startCheckOutTime": "21:00",
+"endCheckOutTime": "23:00"
+}
+],
+"maxLateMin": "10",
+"maxEarlyMin": "20",
+"shiftName": "一天三次考勤",
+"absentMin": "30",
+"description": "备注"
+},
+
+
+{
+"id": 326,
+"tenantId": 223,
+"shiftName": "一天三次上下班",
+"maxLateMin": "10",
+"maxEarlyMin": "20",
+"absentMin": 30,
+"description": "备注",
+"status": "1",
+"creator": "admin",
+"createTime": "2021-08-06 18:49:33",
+"modifier": null,
+"modifyDate": null,
+"attendancePeriods": [
+{
+  "id": 593,
+  "tenantId": 223,
+  "periodOrder": 1,
+  "periodName": "第一时段上下学",
+  "startTime": "07:00",
+  "endTime": "12:00",
+  "startCheckInTime": "06:00",
+  "endCheckInTime": "08:00",
+  "startCheckOutTime": "11:00",
+  "endCheckOutTime": "13:00"
+},
+{
+  "id": 591,
+  "tenantId": 223,
+  "periodOrder": 2,
+  "periodName": "第二时段上下学",
+  "startTime": "14:00",
+  "endTime": "18:00",
+  "startCheckInTime": "13:00",
+  "endCheckInTime": "15:00",
+  "startCheckOutTime": "17:00",
+  "endCheckOutTime": "19:00"
+},
+{
+  "id": 592,
+  "tenantId": 223,
+  "periodOrder": 3,
+  "periodName": "第三时段上下学",
+  "startTime": "19:00",
+  "endTime": "21:00",
+  "startCheckInTime": "18:00",
+  "endCheckInTime": "20:00",
+  "startCheckOutTime": "20:00",
+  "endCheckOutTime": "22:00"
+}
+]
+}
